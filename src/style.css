@@ -1,0 +1,12 @@
+.container {
+  display: block;
+  max-width: 100%;
+}
+
+.logo {
+  display: block;
+  text-align: center;
+  max-width: 60%;
+  width: 80px;
+  height: 80px;
+}
