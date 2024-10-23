@@ -7,45 +7,151 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <div class="hero-image">
-        <img src="logo.png" alt="Logo" class="logo" />
+    <header class="header">
+      <div><img src="img/Logo.jpeg" alt="Logo" class="logo" /></div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Über mich</a></li>
+          <li><a href="#services">Portfolio</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </nav>
+      <br />
+      <div class="heading">
         <h1>Willkommen</h1>
       </div>
     </header>
 
     <main>
-      <section class="about-me">
-        <h2>Über mich</h2>
+      <section class="about-me" id="about">
+        <h3>Über mich</h3>
+        <br />
+        <br />
         <p>
-          Hier sind einige Informationen über mich. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed
-          cursus ante dapibus diam. Sed nisi.
+          Mein Name ist Lukas Richter, und ich bin seit September 2024 als
+          selbstständiger Zimmermann tätig. Mit mehr als 10 Jahren Erfahrung und
+          einer fundierten Ausbildung im Holzbau biete ich Ihnen
+          maßgeschneiderte Lösungen und höchste Handwerksqualität für Ihre
+          Bauprojekte.
         </p>
+        <br />
+        <section>
+          <h3>Meine Erfahrung im Holzbau</h3>
+          <br />
+          <p>
+            Nach meiner Ausbildung zum Zimmermann, die ich von 2009 bis 2012
+            erfolgreich abgeschlossen habe, konnte ich mein Fachwissen in
+            verschiedenen renommierten Schweizer Unternehmen weiter vertiefen.
+            Besonders wertvoll war für mich die Zeit als Geselle, in der ich in
+            einem vielseitigen Betrieb gearbeitet habe. Dort erwarb ich
+            umfassende Kenntnisse in allen Bereichen des Holzbaus – von der
+            Dachkonstruktion über den Innenausbau bis hin zu individuellen
+            Sonderanfertigungen.
+            <br />
+            Im Anschluss daran hatte ich die Gelegenheit, zwei Jahre als
+            Holzbaukonstrukteur in einem Unternehmen tätig zu sein, das als
+            Vorreiter im Holzmodulbau gilt. Diese Zeit hat mein Verständnis für
+            innovative und nachhaltige Bauweisen geprägt und meine Expertise im
+            modernen Holzbau erweitert.
+          </p>
+        </section>
+        <section>
+          <h3>Akademische Ausbildung</h3>
+          <p>
+            <br />
+            Neben meiner handwerklichen Tätigkeit habe ich ein Studium im
+            Bereich Holz abgeschlossen und den Titel Bachelor of Science
+            erworben, mit Schwerpunkt Holz, Holzwirtschaft und Ingenieurwesen.
+            Dieses Studium hat mir ermöglicht, mein technisches Know-how und
+            meine planerischen Fähigkeiten weiter auszubauen.
+          </p>
+        </section>
+        <section>
+          <h3>Meine Philosophie</h3>
+          <p>
+            <br />
+            Holz ist mehr als ein Werkstoff – es ist lebendig und vielseitig.
+            Mit meiner langjährigen Erfahrung, meinem Wissen über moderne
+            Bautechniken und meiner Leidenschaft für das Handwerk, setze ich
+            alles daran, Ihren Vorstellungen gerecht zu werden und langlebige
+            Bauwerke zu schaffen, die Sie begeistern werden. Ob
+            Dachkonstruktionen, Innenausbauten, Holzrahmenbau oder individuelle
+            Projekte – ich freue mich darauf, Ihre Visionen zu verwirklichen.
+            Kontaktieren Sie mich, und lassen Sie uns gemeinsam Ihr nächstes
+            Bauvorhaben planen!
+          </p>
+        </section>
         <a
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/holzbau_lukasrichter/"
           target="_blank"
           class="instagram-link"
           >Folge mir auf Instagram</a
         >
       </section>
+      <section class="portfolio" id="services">
+        <div class="portfolio-item">
+          <img src="holzrahmenbau.jpg" alt="Holzrahmenbau" />
+          <h2>Holzrahmenbau und Modulbau</h2>
+          <p>
+            Innovative Lösungen im Holzrahmenbau und Modulbau ermöglichen eine
+            schnelle, effiziente und flexible Realisierung von Bauprojekten, ob
+            Einfamilienhäuser oder modulare Gebäude.
+          </p>
+        </div>
 
-      <section class="contact">
+        <div class="portfolio-item">
+          <img src="innenausbau.jpg" alt="Innenausbau" />
+          <h2>Innenausbau und maßgeschneiderte Lösungen</h2>
+          <p>
+            Gestaltung von Innenräumen mit Liebe zum Detail: Verkleidungen,
+            Treppenbau, Einbauschränke und Trockenbauarbeiten. Maßgeschneiderte
+            Holzlösungen für ein behagliches Zuhause.
+          </p>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="carports.jpg" alt="Carports" />
+          <h2>Carports, Pergolen und Terrassen</h2>
+          <p>
+            Stilvolle Gestaltung Ihrer Außenbereiche: Carports, Pergolen und
+            Holzterrassen für mehr Lebensqualität im Freien. Maßgeschneiderte
+            Überdachungen und Gartenpavillons aus hochwertigem Holz.
+          </p>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="holzrahmenbau.jpg" alt="Holzrahmenbau" />
+          <h2>Reparatur- und Wartungsarbeiten</h2>
+          <p>
+            Auch nach der Fertigstellung Ihres Projekts stehe ich Ihnen mit
+            meinem Know-how zur Verfügung. Ich übernehme Reparatur- und
+            Wartungsarbeiten an bestehenden Holzbauwerken und sorge dafür, dass
+            Ihre Konstruktionen dauerhaft in bestem Zustand bleiben.
+          </p>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
         <h2>Kontakt</h2>
         <div class="contact-container">
           <div class="contact-info">
             <p><strong>Anschrift:</strong></p>
-            <p>1234 Firmenstraße<br />12345 Stadt, Land</p>
+            <p>Im Schnepfengrund 17<br />69123 Heidelberg</p>
             <p><strong>Telefon:</strong></p>
             <p>+49 123 456789</p>
           </div>
           <div class="map">
-            <a href="https://www.google.com/maps" target="_blank">
-              <img
-                src="map-placeholder.png"
-                alt="Google Maps Link"
-                class="map-image"
-              />
+            <a href="https://maps.app.goo.gl/zLoSKxLJoFMcGgX16" target="_blank">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2596.8174620553427!2d8.63890587666567!3d49.39344486290419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797c739f402f7a5%3A0xef4b27d4e2f730ca!2sIm%20Schnepfengrund%2017%2C%2069123%20Heidelberg!5e0!3m2!1sde!2sde!4v1729708249241!5m2!1sde!2sde"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </a>
           </div>
         </div>
