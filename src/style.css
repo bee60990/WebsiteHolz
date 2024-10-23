@@ -24,13 +24,14 @@ header {
   align-items: center;
   justify-content: center;
   position: relative;
+  padding: 0 20px;
 }
 
 .logo {
   position: absolute;
   top: 20px;
   left: 20px;
-  width: 100px;
+  width: 80px;
   height: auto;
 }
 
@@ -46,7 +47,7 @@ main {
 /* Über mich Sektion */
 .about-me {
   padding: 20px;
-  margin: 20px 20px;
+  margin: 20px 0;
   border-left: 5px solid #f25923;
 }
 
@@ -73,7 +74,7 @@ main {
 
 /* Kontakt Sektion */
 .contact {
-  margin: 20px 20px;
+  margin: 20px 0;
 }
 
 .contact h2 {
@@ -88,7 +89,7 @@ main {
 }
 
 .contact-info {
-  width: 50%;
+  width: 45%;
 }
 
 .contact-info p {
@@ -98,7 +99,7 @@ main {
 }
 
 .map {
-  width: 50%;
+  width: 45%;
 }
 
 .map-image {
