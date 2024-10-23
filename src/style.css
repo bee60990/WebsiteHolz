@@ -12,13 +12,19 @@ html {
   min-height: 100vh;
 }
 
+h2,
+h3 {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 /* Header Styling */
 .header {
-  background-image: url("img/holz.jpg"); /* Replace with your image URL */
+  background-image: url("img/Logo.jpeg"); /* Replace with your image URL */
   background-size: cover;
-  height: 30vh;
+  height: 80vh;
   background-position: center;
-  color: white;
+  color: #333333;
   padding: 60px 20px;
   text-align: center;
 }
@@ -32,7 +38,7 @@ html {
 
 .nav a {
   text-decoration: none;
-  color: white;
+  color: #333333;
   font-weight: bold;
   padding: 10px 15px;
   transition: background-color 0.3s ease;
@@ -64,6 +70,15 @@ html {
 
 .btn:hover {
   background-color: #555;
+}
+
+.container {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
 }
 
 /* Main Content Styling */
@@ -195,13 +210,13 @@ main {
 /* Kontakt Sektion */
 .contact {
   margin: 20px 0;
+  padding-top: 50px;
 }
 
 .contact h2 {
   font-size: 2em;
   margin-bottom: 15px;
   margin: 0 auto;
-  padding-top: 80px;
   color: #fff;
 }
 
