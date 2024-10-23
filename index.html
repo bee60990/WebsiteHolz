@@ -6,20 +6,39 @@
     <title>Document</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
-  <body>
-    <div class="container">
-      <h1>Willkommen</h1>
-      <img src="img/Logo.jpeg" alt="Logo" class="logo" />
-      <p>Holzbau Lukas Richter</p>
-    </div>
+ <header>
+        <div class="hero-image">
+            <img src="logo.png" alt="Logo" class="logo">
+            <h1>Willkommen</h1>
+        </div>
+    </header>
 
-    <h3>Datenschutz</h3>
-    <p></p>
-    <h3>Impressum</h3>
-    <p>
-      
-    </p>
-   footer>
+    <main>
+        <section class="about-me">
+            <h2>Über mich</h2>
+            <p>Hier sind ein paar Informationen über mich. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+            <a href="https://www.instagram.com" target="_blank" class="instagram-link">Folge mir auf Instagram</a>
+        </section>
+
+        <section class="contact">
+            <h2>Kontakt</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p><strong>Anschrift:</strong></p>
+                    <p>1234 Firmenstraße<br>12345 Stadt, Land</p>
+                    <p><strong>Telefon:</strong></p>
+                    <p>+49 123 456789</p>
+                </div>
+                <div class="map">
+                    <a href="https://www.google.com/maps" target="_blank">
+                        <img src="map-placeholder.png" alt="Google Maps Link" class="map-image">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
         <nav>
             <ul>
                 <li><a href="impressum.html">Impressum</a></li>
@@ -27,5 +46,5 @@
             </ul>
         </nav>
     </footer>
-  </body>
+</body>
 </html>
