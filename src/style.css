@@ -6,10 +6,16 @@
 
 body,
 html {
-  font-family: Arial, sans-serif;
   color: white;
   background-color: #333333;
   min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  color: #000;
+  font-family: "Amatic SC", sans-serif;
 }
 
 h2,
@@ -17,6 +23,15 @@ h3 {
   font-family: "Amatic SC", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  line-height: 150%;
+  font-size: 15px;
 }
 
 img {
@@ -24,6 +39,20 @@ img {
   object-position: center top;
   width: 100%;
   height: auto;
+}
+
+/* Main Content Styling */
+main {
+  padding: 40px 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+header {
+  position: relative;
+  width: 100%;
 }
 
 /* Standard Desktop */
@@ -51,17 +80,6 @@ img {
   }
 }
 /* Header Styling */
-/*
-.header {
-  background-image: url("img/Logo.jpeg"); /* Replace with your image URL */
-/*background-size: cover;
-  height: 80vh;
-  background-position: center;
-  color: #333333;
-  padding: 60px 20px;
-  text-align: center;
-}
-*/
 
 .nav ul {
   list-style: none;
@@ -72,10 +90,11 @@ img {
 
 .nav a {
   text-decoration: none;
-  color: #333333;
+  color: #000;
   font-weight: bold;
   padding: 10px 15px;
   transition: background-color 0.3s ease;
+  font-size: 25px;
 }
 
 .nav a:hover {
@@ -94,7 +113,7 @@ img {
 
 .btn {
   padding: 10px 25px;
-  color: #fff;
+  color: #333333;
   background-color: #333;
   text-decoration: none;
   font-weight: bold;
@@ -107,48 +126,16 @@ img {
 }
 
 .container {
-  text-align: center;
   padding-top: 20px;
   font-family: "Amatic SC", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 80px;
-}
-
-/* Main Content Styling */
-main {
-  padding: 40px 20px;
-}
-
-section {
-  margin-bottom: 40px;
-}
-
-h2 {
-  font-size: 2rem;
-  color: white;
-  margin-bottom: 20px;
-}
-header {
-  position: relative;
-  width: 100%;
-}
-
-.logo {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 80px;
-  height: auto;
-}
-
-h1 {
-  font-size: 3em;
-  color: white;
-}
-
-main {
-  padding: 20px;
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  background-color: #fff;
 }
 
 /* Über mich Sektion */
@@ -156,13 +143,13 @@ main {
   padding: 20px;
   margin: 20px 0;
   border-left: 5px solid #f25923;
-  padding-bottom: 80px;
+  padding-bottom: 20px;
 }
 
 .about-me h2 {
   font-size: 2em;
   margin-bottom: 15px;
-  color: #fff;
+  color: #000;
 }
 
 .about-me p {
@@ -175,6 +162,7 @@ main {
   color: #f25923;
   text-decoration: none;
   font-weight: bold;
+  font-size: 38px;
 }
 
 .instagram-link:hover {
@@ -191,14 +179,15 @@ main {
   padding-top: 20px;
 }
 
-.Leistungsportfolio {
+.leistungsportfolio {
   padding-top: 80px;
+  font-size: 2em;
 }
 .portfolio-item {
   background-color: rgba(
-    255,
-    255,
-    255,
+    49,
+    48,
+    48,
     0.9
   ); /* Weißer Hintergrund mit 50% Transparenz */
 
@@ -206,7 +195,8 @@ main {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  color: #333333;
+  color: #ffffff;
+  font-size: 25px;
 }
 
 .portfolio-item img {
@@ -215,14 +205,13 @@ main {
 }
 
 .portfolio-item h2 {
-  font-size: 1.5em;
-  color: #000;
+  color: #ffffff;
   margin: 15px 0;
 }
 
 .portfolio-item p {
-  font-size: 1em;
   margin-bottom: 15px;
+  color: #ffffff;
 }
 
 #icon {
@@ -241,13 +230,13 @@ main {
   font-size: 2em;
   margin-bottom: 15px;
   margin: 0 auto;
-  color: #fff;
+  color: #000;
 }
 
 .contact-container {
   display: flex;
   justify-content: space-between;
-  gap: 200px;
+  gap: 100px;
   padding: 20px;
   margin: 20px 0;
   border-left: 5px solid #f25923;
@@ -255,7 +244,7 @@ main {
 
 .contact-info {
   width: 45%;
-  padding-left: 100px;
+  padding-left: 20px;
 }
 
 .contact-info p {
@@ -265,12 +254,11 @@ main {
 }
 
 .map {
-  width: 45%;
-}
-
-.map-image {
-  width: 100%;
-  border: 3px solid #f25923;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 /* Footer */
@@ -285,6 +273,7 @@ footer nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  font-size: 1.5em;
 }
 
 footer nav ul li {
