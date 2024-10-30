@@ -31,7 +31,7 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   color: #000;
   line-height: 150%;
-  font-size: 15px;
+  font-size: 1.25em;
 }
 
 img {
@@ -53,6 +53,15 @@ section {
 header {
   position: relative;
   width: 100%;
+}
+
+ul,
+li {
+  color: #000;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-size: 1.05em;
 }
 
 /* Standard Desktop */
@@ -95,10 +104,16 @@ header {
   padding: 10px 15px;
   transition: background-color 0.3s ease;
   font-size: 25px;
+  font-family: "Amatic SC", sans-serif;
 }
 
 .nav a:hover {
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+.navHome li {
+  display: inline;
+  text-align: left;
 }
 
 .header-content h1 {
@@ -196,7 +211,6 @@ header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   color: #ffffff;
-  font-size: 25px;
 }
 
 .portfolio-item img {
@@ -212,6 +226,9 @@ header {
 .portfolio-item p {
   margin-bottom: 15px;
   color: #ffffff;
+  text-align: left;
+  padding-left: 15px;
+  font-size: 18px;
 }
 
 #icon {
@@ -278,6 +295,7 @@ footer nav ul {
 
 footer nav ul li {
   margin: 0 10px;
+  font-family: "Amatic SC", sans-serif;
 }
 
 footer nav ul li a {
@@ -306,4 +324,25 @@ footer nav ul li a:hover {
   .hero-image {
     height: 50vh;
   }
+}
+/* Stil für das Home-Icon */
+.home-icon i {
+  font-size: 24px; /* Größe des Icons anpassen */
+  color: #333;
+  transition: color 0.3s ease, transform 0.3s ease; /* Farbe und Vergrößerung bei Hover */
+}
+
+.home-icon i:hover {
+  color: #007bff; /* Farbe beim Hover */
+  transform: scale(1.2); /* Vergrößerung beim Hover */
+}
+
+.home-icon img {
+  width: 50px; /* Größe des Icons anpassen */
+  height: auto;
+  transition: transform 0.3s ease; /* Für einen Hover-Effekt */
+}
+
+.home-icon img:hover {
+  transform: scale(1.1); /* Vergrößern bei Hover */
 }
