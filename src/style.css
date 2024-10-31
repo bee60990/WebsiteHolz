@@ -58,7 +58,7 @@ header {
 ul,
 li {
   color: #000;
-  padding: 15px;
+  padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
   font-size: 1.05em;
@@ -94,7 +94,7 @@ li {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 .nav a {
@@ -145,12 +145,30 @@ li {
   font-family: "Amatic SC", sans-serif;
   font-weight: 400;
   font-style: normal;
-  max-width: 500px;
-  margin: 20px auto;
+  max-width: 800px;
+  margin: 30px auto;
   padding: 15px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   background-color: #fff;
+}
+
+/* Für Tablets und kleinere Bildschirme (bis 768px) */
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%; /* Breiter, damit es den Bildschirm besser ausfüllt */
+    margin: 20px auto;
+    padding: 10px;
+  }
+}
+
+/* Für Smartphones (bis 480px) */
+@media (max-width: 480px) {
+  .container {
+    max-width: 95%; /* Noch breiter, fast über die gesamte Breite des Bildschirms */
+    padding: 8px;
+    margin: 10px auto;
+  }
 }
 
 /* Über mich Sektion */
