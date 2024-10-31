@@ -94,21 +94,42 @@ li {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
 }
 
 .nav a {
   text-decoration: none;
   color: #000;
   font-weight: bold;
-  padding: 10px 15px;
+  padding: 5px 15px;
   transition: background-color 0.3s ease;
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Amatic SC", sans-serif;
 }
 
 .nav a:hover {
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Für Tablets und kleinere Bildschirme (bis 768px) */
+@media (max-width: 768px) {
+  .nav ul {
+    max-width: 90%; /* Breiter, damit es den Bildschirm besser ausfüllt */
+    margin: 5px auto;
+    padding: 5px;
+  }
+}
+
+/* Für Smartphones (bis 480px) */
+@media (max-width: 480px) {
+  .nav ul a {
+    max-width: 95%; /* Noch breiter, fast über die gesamte Breite des Bildschirms */
+    margin: 5px auto;
+    padding: 2px;
+    gap: 2px;
+    text-align: left;
+    font-size: 25px;
+  }
 }
 
 .navHome li {
@@ -231,11 +252,6 @@ li {
   color: #ffffff;
 }
 
-.portfolio-item img {
-  width: 100%;
-  border-radius: 8px 8px 0 0;
-}
-
 .portfolio-item h2 {
   color: #ffffff;
   margin: 15px 0;
@@ -246,7 +262,7 @@ li {
   color: #ffffff;
   text-align: left;
   padding-left: 15px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 #icon {
@@ -279,7 +295,7 @@ li {
 
 .contact-info {
   width: 45%;
-  padding-left: 20px;
+  padding-left: 5px;
 }
 
 .contact-info p {
