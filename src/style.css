@@ -285,17 +285,10 @@ li {
 }
 
 .contact-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 100px;
-  padding: 20px;
   margin: 20px 0;
   border-left: 5px solid #f25923;
-}
-
-.contact-info {
-  width: 45%;
-  padding-left: 5px;
+  padding: 20px;
+  margin: 20px 0;
 }
 
 .contact-info p {
