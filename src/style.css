@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+ 
 @font-face {
   font-family: 'Amatic SC';
   font-style: normal;
@@ -16,6 +17,7 @@
   font-weight: 700;
   src: url('fonts/amatic-sc-v24-latin-700.woff2') format('woff2');
 }
+ 
 
 body,
 html {
