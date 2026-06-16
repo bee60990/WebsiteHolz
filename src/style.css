@@ -8,13 +8,13 @@
   font-family: 'Amatic SC';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/amatic-sc-v24-latin-regular.woff2') format('woff2');
+  src: url('fonts/amatic-sc-v24-latin-regular.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Amatic SC';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/amatic-sc-v24-latin-700.woff2') format('woff2');
+  src: url('fonts/amatic-sc-v24-latin-700.woff2') format('woff2');
 }
 
 body,
